@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context="com.example.bk.hittheball.Splash_screen">
+
+    <LinearLayout
+        android:id="@+id/upLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:background="#000"
+
+        >
+        <ImageView
+            android:id="@+id/splash_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/final_app_logo"
+            android:layout_marginTop="190dp"
+            />
+
+    </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/downLayout"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="#000"
+          android:orientation="vertical"
+
+          >
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Hungry Duck"
+              android:textColor="#fff"
+              android:textSize="30sp"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="100dp"
+              android:textAlignment="center"
+              android:fontFamily="sans-serif"
+              />
+            <!--<Button-->
+                <!--android:id="@+id/entering"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="55dp"-->
+                <!--android:text="Go..!"-->
+                <!--android:background="@drawable/tmpbtn"-->
+                <!--android:elevation="5dp"-->
+                <!--android:textColor="#fff"-->
+                <!--android:textSize="18sp"-->
+                <!--android:fontFamily="sans-serif"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:layout_marginLeft="110dp"-->
+                <!--/>-->
+      </LinearLayout>
+
+    </LinearLayout>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000"
+    tools:context="com.example.bk.hittheball.Result">
+
+    <!--<com.jetradarmobile.snowfall.SnowfallView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:snowflakeImage="@drawable/winning"-->
+        <!--/>-->
+
+    <com.yasic.library.particletextview.View.ParticleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/overLabel"
+        />
+
+    <!--<TextView-->
+        <!--android:id="@+id/overLabel"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="  GAME OVER  "-->
+        <!--android:textSize="30sp"/>-->
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:layout_marginTop="80dp"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/highScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIGH SCORE : 300"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="80dp"/>
+
+
+
+
+    <com.varunest.sparkbutton.SparkButton
+        android:id="@+id/tryAgain"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        app:sparkbutton_iconSize="250dp"
+        app:sparkbutton_activeImage="@drawable/button"
+
+        />
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:text="TRY AGAIN"-->
+    <!--android:onClick="tryAgain"-->
+    <!--android:textAllCaps="false"/>-->
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Quit"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:background="@drawable/tmpbtn"
+        android:onClick="quitGame"
+        android:textAllCaps="false"/>
+
+
+
+</LinearLayout>

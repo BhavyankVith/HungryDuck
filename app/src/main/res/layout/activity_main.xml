@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_cool"
+    tools:context="com.example.bk.hittheball.MainActivity">
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Score : 300"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:textColor="#fff"
+        android:gravity="center_vertical"/>
+
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAP TO START "
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp"/>
+
+
+        <ImageView
+            android:id="@+id/duckFace"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/duckface"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:id="@+id/blueFish"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/bluetenpoint"/>
+
+        <ImageView
+            android:id="@+id/redSharkOver"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/redsharkover"/>
+
+        <ImageView
+            android:id="@+id/decrePoint"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/decpoint"/>
+
+
+        <ImageView
+            android:id="@+id/yellowFish"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/yellowthirtypoint"/>
+
+    </FrameLayout>
+
+</LinearLayout>
