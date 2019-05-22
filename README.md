@@ -10,7 +10,7 @@ Dependency used:
 
 Thanks and credits:
 
-NiftyDialogEffects
-sparkbutton:1.0.5
-particletextview
+#NiftyDialogEffects
+#sparkbutton:1.0.5
+#particletextview
 
