@@ -9,11 +9,7 @@
     android:background="#000"
     tools:context="com.example.bk.hittheball.Result">
 
-    <!--<com.jetradarmobile.snowfall.SnowfallView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--app:snowflakeImage="@drawable/winning"-->
-        <!--/>-->
+  
 
     <com.yasic.library.particletextview.View.ParticleTextView
         android:layout_width="wrap_content"
